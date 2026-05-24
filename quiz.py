@@ -39,39 +39,32 @@ def start(questions):
 
 
 
-questions = load_questions()
 
-start(questions)
+def main():
+  print("Welcome to this quix game!")
 
-# def main():
-#   print("Welcome to this quix game!")
+  print("\nRules of this quiz game are: ")
+  print("1. Each questions has 4 options and 1 is the correct answer.")
+  print("2. Choose only one option by writing the option letter as only one answer exists.")
+  print("3. Each correct option gives only one point.")
 
-#   print("Rules of this quiz game are: ")
-#   print("1. Each questions has 4 options and 1 is the correct answer.")
-#   print("2. Choose only one option by writing the option letter as only one answer exists.")
-#   print("3. Each correct option gives only one point.")
+  print()
 
-#   print()
-
-#   name = input("Enter your name: ")
-#   print(f"Hello, {name}.")
+  name = input("Enter your name: ")
+  print(f"Hello, {name}.")
   
-#   start = input("Press 0 to Start.")
+  while True:
+    starting = input("Press 0 to Start.")
 
-#   try :
-#     if(start == 0):
-#       questions = load_questions()
-
-
-
-
-
-
+    if(starting == "0"):
+      questions = load_questions()
+      start(questions)
+      break
+    else:
+      print("Enter Valid Input: ")
 
 
 
-
-
-# main()
+main()
 
 
