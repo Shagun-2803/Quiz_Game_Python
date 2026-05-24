@@ -1,12 +1,111 @@
 [
   {
-    "question" : "What is the capital of India: ",
-    "options" : {
-      "A" : "Mumbai",
-      "B" : "Delhi",
-      "C" : "Kolkata",
-      "D" : "Hyderabad"
+    "question": "What is the capital of India?",
+    "options": {
+      "A": "Mumbai",
+      "B": "Delhi",
+      "C": "Kolkata",
+      "D": "Hyderabad"
     },
-    "correct_option" : "B"
+    "correct_option": "B"
+  },
+
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "options": {
+      "A": "func",
+      "B": "define",
+      "C": "def",
+      "D": "function"
+    },
+    "correct_option": "C"
+  },
+
+  {
+    "question": "Which data type stores True or False values?",
+    "options": {
+      "A": "int",
+      "B": "bool",
+      "C": "str",
+      "D": "float"
+    },
+    "correct_option": "B"
+  },
+
+  {
+    "question": "What does JSON stand for?",
+    "options": {
+      "A": "Java Source Object Notation",
+      "B": "JavaScript Object Notation",
+      "C": "Java Structured Object Network",
+      "D": "Joined Syntax Object Notation"
+    },
+    "correct_option": "B"
+  },
+
+  {
+    "question": "Which loop is best when the number of iterations is known?",
+    "options": {
+      "A": "while loop",
+      "B": "for loop",
+      "C": "do while loop",
+      "D": "infinite loop"
+    },
+    "correct_option": "B"
+  },
+
+  {
+    "question": "Which symbol is used for comments in Python?",
+    "options": {
+      "A": "//",
+      "B": "/*",
+      "C": "#",
+      "D": "--"
+    },
+    "correct_option": "C"
+  },
+
+  {
+    "question": "Which function is used to take user input in Python?",
+    "options": {
+      "A": "scan()",
+      "B": "input()",
+      "C": "get()",
+      "D": "read()"
+    },
+    "correct_option": "B"
+  },
+
+  {
+    "question": "What is the output type of input() in Python?",
+    "options": {
+      "A": "int",
+      "B": "float",
+      "C": "bool",
+      "D": "str"
+    },
+    "correct_option": "D"
+  },
+
+  {
+    "question": "Which data structure uses key-value pairs?",
+    "options": {
+      "A": "List",
+      "B": "Tuple",
+      "C": "Dictionary",
+      "D": "Set"
+    },
+    "correct_option": "C"
+  },
+
+  {
+    "question": "Which keyword is used for conditional branching in Python?",
+    "options": {
+      "A": "switch",
+      "B": "case",
+      "C": "elif",
+      "D": "loop"
+    },
+    "correct_option": "C"
   }
 ]

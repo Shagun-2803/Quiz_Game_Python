@@ -37,13 +37,14 @@ def start(questions):
 
   print(f"Your final score is: {points}")
 
+  return points
 
 
 
 def main():
-  print("Welcome to this quix game!")
+  print("Welcome to this quiz!")
 
-  print("\nRules of this quiz game are: ")
+  print("\nRules of this quiz are: ")
   print("1. Each questions has 4 options and 1 is the correct answer.")
   print("2. Choose only one option by writing the option letter as only one answer exists.")
   print("3. Each correct option gives only one point.")
@@ -58,12 +59,23 @@ def main():
 
     if(starting == "0"):
       questions = load_questions()
-      start(questions)
+      score = start(questions)
       break
     else:
       print("Enter Valid Input: ")
 
+  final = int((score/10)*100)
 
+  if(final >= 90 and final <= 100):
+    print("Exxcellent!")
+  elif(final >= 75 and final < 90):
+    print("Well done!")
+  elif(final >= 40 and final < 75):
+    print("Do better next time!")
+  else:
+    print("More knowlegde needed.")
+
+  
 
 main()
 
