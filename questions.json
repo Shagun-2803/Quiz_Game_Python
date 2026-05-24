@@ -1,0 +1,12 @@
+[
+  {
+    "question" : "What is the capital of India: ",
+    "options" : {
+      "A" : "Mumbai",
+      "B" : "Delhi",
+      "C" : "Kolkata",
+      "D" : "Hyderabad"
+    },
+    "correct_option" : "B"
+  }
+]
