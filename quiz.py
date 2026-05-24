@@ -29,6 +29,7 @@ def start(questions):
           points += 1; 
         else:
           print("Incorrect Answer!")
+          print(f"Correct Option is: {question['correct_option']}")
         break
 
       else:
@@ -36,6 +37,8 @@ def start(questions):
       print()
 
   print(f"Your final score is: {points}")
+  print(f"Total questions: {len(questions)}")
+  print(f"Total incorrect questions: {len(questions) - points}")
 
   return points
 
@@ -64,10 +67,10 @@ def main():
     else:
       print("Enter Valid Input: ")
 
-  final = int((score/10)*100)
+  final = int((score/len(questions))*100)
 
   if(final >= 90 and final <= 100):
-    print("Exxcellent!")
+    print("Excellent!")
   elif(final >= 75 and final < 90):
     print("Well done!")
   elif(final >= 40 and final < 75):
