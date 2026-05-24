@@ -19,19 +19,22 @@ def start(questions):
     for oletter,oname in question["options"].items():
       print(f"{oletter} : {oname}")
     
-    answer = input("Enter your answer: ")
+    while True: 
+      answer = input("Enter your answer: ")
     
-    if answer.upper() in question["options"]:
+      if answer.upper() in question["options"]:
 
-      if(answer.upper() == question["correct_option"]):
-        print(f"Your Option is correct!")
-        points += 1;
+        if(answer.upper() == question["correct_option"]):
+          print(f"Your Option is correct!")
+          points += 1; 
+        else:
+          print("Incorrect Answer!")
+        break
+
       else:
-        print("Incorrect Answer!")
-    
-    else:
-      print("Enter valid option")
-    print()
+        print("Enter valid option")
+      print()
+
   print(f"Your final score is: {points}")
 
 
