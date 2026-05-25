@@ -1,4 +1,5 @@
 import json
+import time 
 
 def load_questions():
   try:
@@ -11,8 +12,9 @@ def load_questions():
 
 
 def start(questions):
-  points = 0
 
+  points = 0
+  start_time = time.time()
   for qnum,question in enumerate(questions, start = 1):
     print(f'Question {qnum}: {question["question"]}')
     
@@ -35,7 +37,12 @@ def start(questions):
       else:
         print("Enter valid option")
       print()
+  
+  end_time = time.time()
 
+  time_taken = end_time - start_time
+
+  print(f"The time takenn for this quiz is: {round(time_taken,2)}")
   print(f"Your final score is: {points}")
   print(f"Total questions: {len(questions)}")
   print(f"Total incorrect questions: {len(questions) - points}")
