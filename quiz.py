@@ -1,5 +1,6 @@
 import json
 import time 
+import random
 
 def load_questions():
   try:
@@ -69,7 +70,9 @@ def main():
 
     if(starting == "0"):
       questions = load_questions()
-      score = start(questions)
+      shuffled_questions = questions.copy()
+      random.shuffle(shuffled_questions)
+      score = start(shuffled_questions)
       break
     else:
       print("Enter Valid Input: ")
