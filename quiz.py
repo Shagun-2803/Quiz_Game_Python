@@ -18,16 +18,23 @@ def start(questions):
   start_time = time.time()
   for qnum,question in enumerate(questions, start = 1):
     print(f'Question {qnum}: {question["question"]}')
-    
-    for oletter,oname in question["options"].items():
-      print(f"{oletter} : {oname}")
-    
+
+    options = question["options"].copy()
+    random.shuffle(options)
+
+    option_map = {}
+    for index,option in enumerate(options):
+      letter = chr(index + 65)
+      print(f"{letter} : {option}")
+      option_map[letter] = option
+
     while True: 
       answer = input("Enter your answer: ")
-    
-      if answer.upper() in question["options"]:
 
-        if(answer.upper() == question["correct_option"]):
+      if answer.upper() in option_map:
+
+        selected_option = option_map[answer.upper()]
+        if(selected_option == question["correct_option"]):
           print(f"Your Option is correct!")
           points += 1; 
         else:

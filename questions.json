@@ -1,111 +1,111 @@
 [
   {
     "question": "What is the capital of India?",
-    "options": {
-      "A": "Mumbai",
-      "B": "Delhi",
-      "C": "Kolkata",
-      "D": "Hyderabad"
-    },
-    "correct_option": "B"
+    "options": [
+      "Mumbai",
+      "Delhi",
+      "Kolkata",
+      "Hyderabad"
+    ],
+    "correct_option": "Delhi"
   },
 
   {
     "question": "Which keyword is used to define a function in Python?",
-    "options": {
-      "A": "func",
-      "B": "define",
-      "C": "def",
-      "D": "function"
-    },
-    "correct_option": "C"
+    "options": [
+      "func",
+      "define",
+      "def",
+      "function"
+    ],
+    "correct_option": "def"
   },
 
   {
     "question": "Which data type stores True or False values?",
-    "options": {
-      "A": "int",
-      "B": "bool",
-      "C": "str",
-      "D": "float"
-    },
-    "correct_option": "B"
+    "options": [
+      "int",
+      "bool",
+      "str",
+      "float"
+    ],
+    "correct_option": "bool"
   },
 
   {
     "question": "What does JSON stand for?",
-    "options": {
-      "A": "Java Source Object Notation",
-      "B": "JavaScript Object Notation",
-      "C": "Java Structured Object Network",
-      "D": "Joined Syntax Object Notation"
-    },
-    "correct_option": "B"
+    "options": [
+      "Java Source Object Notation",
+      "JavaScript Object Notation",
+      "Java Structured Object Network",
+      "Joined Syntax Object Notation"
+    ],
+    "correct_option": "JavaScript Object Notation"
   },
 
   {
     "question": "Which loop is best when the number of iterations is known?",
-    "options": {
-      "A": "while loop",
-      "B": "for loop",
-      "C": "do while loop",
-      "D": "infinite loop"
-    },
-    "correct_option": "B"
+    "options": [
+      "while loop",
+      "for loop",
+      "do while loop",
+      "infinite loop"
+    ],
+    "correct_option": "for loop"
   },
 
   {
     "question": "Which symbol is used for comments in Python?",
-    "options": {
-      "A": "//",
-      "B": "/*",
-      "C": "#",
-      "D": "--"
-    },
-    "correct_option": "C"
+    "options": [
+      "//",
+      "/*",
+      "#",
+      "--"
+    ],
+    "correct_option": "#"
   },
 
   {
     "question": "Which function is used to take user input in Python?",
-    "options": {
-      "A": "scan()",
-      "B": "input()",
-      "C": "get()",
-      "D": "read()"
-    },
-    "correct_option": "B"
+    "options": [
+      "scan()",
+      "input()",
+      "get()",
+      "read()"
+    ],
+    "correct_option": "input()"
   },
 
   {
     "question": "What is the output type of input() in Python?",
-    "options": {
-      "A": "int",
-      "B": "float",
-      "C": "bool",
-      "D": "str"
-    },
-    "correct_option": "D"
+    "options": [
+      "int",
+      "float",
+      "bool",
+      "str"
+    ],
+    "correct_option": "str"
   },
 
   {
     "question": "Which data structure uses key-value pairs?",
-    "options": {
-      "A": "List",
-      "B": "Tuple",
-      "C": "Dictionary",
-      "D": "Set"
-    },
-    "correct_option": "C"
+    "options": [
+      "List",
+      "Tuple",
+      "Dictionary",
+      "Set"
+    ],
+    "correct_option": "Dictionary"
   },
 
   {
     "question": "Which keyword is used for conditional branching in Python?",
-    "options": {
-      "A": "switch",
-      "B": "case",
-      "C": "elif",
-      "D": "loop"
-    },
-    "correct_option": "C"
+    "options": [
+      "switch",
+      "case",
+      "elif",
+      "loop"
+    ],
+    "correct_option": "elif"
   }
 ]
